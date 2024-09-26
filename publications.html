@@ -2,72 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Yu Shimojo &ndash; Publications</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="5/flatly/bootstrap.css">
-    <link rel="stylesheet" href="_vendor/bootstrap-icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="_vendor/prismjs/themes/prism-okaidia.css">
-    <link rel="stylesheet" href="_assets/css/custom.min.css">
-    <!- Global Site Tag (gtag.js) - Google Analytics ->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGDJBEFF3W"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-KGDJBEFF3W');
-    </script>
-
+    <title>Publications - Yu Shimojo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
   </head>
+  
   <body>
-    <div class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
       <div class="container">
-        <a href="index.html" class="navbar-brand">Yu Shimojo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">
+          <span class="header">Yu Shimojo</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+       
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav4">    
           <ul class="navbar-nav">
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Home</a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a class="dropdown-item" href="index.html#ME" download>About Me</a>
-                <a class="dropdown-item" href="index.html#NEW" download>What's New</a>
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="profile.html#PRO_E" download>Education</a>
+                <a class="dropdown-item" href="profile.html#PRO_P" download>Professional Training/Employment</a>
+                <a class="dropdown-item" href="profile.html#PRO_H" download>Honer/Awards</a>
+                <a class="dropdown-item" href="profile.html#PRO_G" download>Grant/Fundings</a>
               </div>
             </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Profiles</a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a class="dropdown-item" href="profiles.html#PRO_E" download>Education</a>
-                <a class="dropdown-item" href="profiles.html#PRO_P" download>Professional Training/Employment</a>
-                <a class="dropdown-item" href="profiles.html#PRO_H" download>Honer/Awards</a>
-                <a class="dropdown-item" href="profiles.html#PRO_G" download>Grant/Fundings</a>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="research.html#OV">Overview</a>
+                <a class="dropdown-item" href="research.html#RP">Research Projects</a>
               </div>
             </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Research</a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a class="dropdown-item" href="research.html#OV" download>Overview</a>
-                <a class="dropdown-item" href="research.html#RP" download>Research Projects</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Publications</a>
-              <div class="dropdown-menu" aria-labelledby="download">
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="publications.html#PUB_J">Journal Papers</a>
-                <a class="dropdown-item" href="publications.html#PUB_P" download>Proceedings</a>
-                <a class="dropdown-item" href="publications.html#PUB_O" download>Others</a>
+                <a class="dropdown-item" href="publications.html#PUB_P">Proceedings</a>
+                <a class="dropdown-item" href="publications.html#PUB_O">Others</a>
               </div>
             </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Presentatios</a>
-              <div class="dropdown-menu" aria-labelledby="download">
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Presentations
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="presentations.html#PRE_I">International Conferences</a>
-                <a class="dropdown-item" href="presentations.html#PRE_D" download>Domestic Conferences</a>
+                <a class="dropdown-item" href="presentations.html#PRE_D">Domestic Conferences</a>
               </div>
             </li>
-            <li class="nav-item dropdown" data-bs-theme="light">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Media Coverage</a>
-              <div class="dropdown-menu" aria-labelledby="download">
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Media
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="media.html#MED" download>Media</a>
                 <a class="dropdown-item" href="media.html#PRESS" download>Press Release</a>
               </div>
@@ -75,193 +76,178 @@
           </ul>
         </div>
       </div>
-    </div>
-    
-    <div class="container">
-      <a id="PUB_J" class="anchor"></a>
-      <h4>Journal Papers (peer review)</h4>   
-          <ol>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura, D. Tsuruta, T. Ozawa, T. Kono: 
-              In silico evaluation of nanosecond laser treatment of pigmented lesions based on skin optical properties using a model of melanosome disruption threshold fluence.
-              Lasers in Surgery and Medicine, in press.
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura*, D. Tsuruta, T. Ozawa: 
-              <a href="https://doi.org/10.1038/s41598-024-70807-7" target="_blank">Ultralow radiant exposure of a short-pulsed laser to disrupt melanosomes with localized thermal damage through a turbid medium.</a>
-              Scientific Reports, 14, 20112 (2024).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, R. Teranishi, T. Nishimura, K. Kuwada, T. Goya, K. Morii, D. Tsuruta, T. Ozawa:
-              <a href="https://www.jstage.jst.go.jp/article/jslsm/45/2/45_jslsm-45_0025/_article/-char/en" target="_blank">Antimicrobial photodynamic therapy using an organic light-emitting diode.</a>
-              Journal of Japan Society for Laser Surgery and Medicine, 45, 153-160 (2024). [in Japanese] 
-            </li>
-            <li style="padding-top:0.5rem;">
-              R. Teranishi, T. Ozawa*, B. Katayama, <u><b>Y. Shimojo</b></u>, N. Ito, K. Awazu, D. Tsuruta: 
-              <a href="https://doi.org/10.1111/phpp.12959" target="_blank">Effect of photodynamic therapy with 5-aminolevulinic acid and EDTA-2Na against mixed infection of methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa.</a>
-              Photodermatology, Photoimmunology & Photomedicine, 40, e12959 (2024).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura, D. Tsuruta, T. Ozawa, H.H.L. Chan, T. Kono: 
-              <a href="https://doi.org/10.1002/lsm.23773" target="_blank">Wavelength-dependent threshold fluences for melanosome disruption to evaluate the treatment of pigmented lesions with 532-, 730-, 755-, 785-, and 1064-nm picosecond lasers.</a>
-              Lasers in Surgery and Medicine, 56, 404-418 (2024). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              H. Imanishi, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
-              <a href="https://doi.org/10.1364/BOE.500022" target="_blank">Deep learning based depth map estimation of protoporphyrin IX in turbid media using dual wavelength excitation fluorescence.</a>
-              Biomedical Optics Express, 14, 5254-5266 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, K. Sudo, T. Nishimura*, T. Ozawa, D. Tsuruta, K. Awazu: 
-              <a href="https://doi.org/10.1038/s41598-023-39026-4" target="_blank">Transient simulation of laser ablation based on Monte Carlo light transport with dynamic optical properties model.</a>
-              Scientific Reports, 13, 11898 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              Y. Takai*, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
-              <a href="https://doi.org/10.1142/S1793545823500128" target="_blank">Artificial neural network-based determination of denoised optical properties in double integrating spheres measurement.</a>
-              Journal of Innovative Optical Health Sciences, 16, 2350012, (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              Y. Miyoshi*, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Okayama, K. Awazu: 
-              <a href="https://doi.org/10.1038/s41598-023-29392-4" target="_blank">Endoscopic image-guided laser treatment system based on fiber bundle laser steering.</a>
-              Scientific Reports, 13, 2921 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura*, T. Ozawa, D. Tsuruta, K. Awazu:
-              <a href="https://doi.org/10.1002/lsm.23642" target="_blank">Nonlinear absorption-based analysis of energy deposition in melanosomes for 532-nm short-pulsed laser skin treatment.</a>
-              Lasers in Surgery and Medicine, 55, 305-315 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              T. Nishimura*, T. Suzuki, <u><b>Y. Shimojo</b></u>, R. Teranishi, T. Ozawa, D. Tsuruta, K. Awazu: 
-              <a href="https://doi.org/10.1016/j.pdpdt.2022.103116" target="_blank">Mathematical modelling for antimicrobial photodynamic therapy mediated by 5-aminolaevulinic acid: an in vitro study.</a>
-              Photodiagnosis and Photodynamic Therapy, 40, 103116 (2022).
-            </li>
-            <li style="padding-top:0.5rem;">
-              K. Sudo*, <u><b>Y. Shimojo</b></u>, T. Nishimura*, K. Awazu: 
-              <a href="https://doi.org/10.1142/S179354582250016X" target="_blank">Three-dimensional transient simulation of CO<sub>2</sub> laser tissue vaporization and experimental evaluation with a hydrogel phantom.</a>
-              Journal of Innovative Optical Health Sciences, 15, 2250016 (2022). [<b>Selected as Feturead Article 2022</b>]
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura*, K. Awazu: 
-              <a href="https://www.jstage.jst.go.jp/article/jslsm/42/4/42_jslsm-42_0027/_article/-char/en/" target="_blank">Photothermal effect induced by contact laser vaporization of porcine prostate tissue using XCAVATOR fiber.</a>
-              Journal of Japan Society for Laser Surgery and Medicine, 42, 219-227 (2022). [in Japanese] 
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura*, H. Hazama, N. Ito, K. Awazu: 
-              <a href="https://doi.org/10.1002/lsm.23391" target="_blank">Incident fluence analysis for 755-nm picosecond laser treatment of pigmented skin lesions based on threshold fluences for melanosome disruption.</a>
-              Lasers in Surgery and Medicine, 53, 1096-1104 (2021). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              T. Nishimura*, Y. Takai, <u><b>Y. Shimojo</b></u>,  H. Hazama, N. Ito, K. Awazu: 
-              <a href="https://doi.org/10.1007/s10043-020-00632-6" target="_blank">Determination of optical properties in double integrating sphere measurement by artificial neural network based method.</a>
-              Optical Review, 28, 42-47 (2021). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura*, H. Hazama, T. Ozawa, K. Awazu: 
-              <a href="https://doi.org/10.1117/1.JBO.25.4.045002" target="_blank">Measurement of absorption and reduced scattering coefficients in Asian human epidermis, dermis, and subcutaneous fat tissues in the 400- to 1100-nm wavelength range for optical penetration depth and energy deposition analysis.</a> 
-              Journal of Biomedical Optics, 25, 045002 (2020). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>*, T. Nishimura, H. Hazama, N. Ito, K. Awazu: 
-              <a href="https://doi.org/10.5978/islsm.20-OR-08" target="_blank">Picosecond laser-induced photothermal skin damage evaluation by computational clinical trial.</a>
-              Laser Therapy, 29, 61-72 (2020). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
-              <a href="https://www.jstage.jst.go.jp/article/jslsm/41/1/41_jslsm-41_0001/_article/-char/en" target="_blank">Computer-aided Regulatory Science for Laser Medicine.</a>
-              Journal of Japan Society for Laser Surgery and Medicine, 41, 37-43 (2020). [in Japanese] 
-            </li>
-            <li style="padding-top:0.5rem;">
-              T. Nishimura*, <u><b>Y. Shimojo</b></u>, H. Hazama, K. Awazu: 
-              <a href="https://www.jstage.jst.go.jp/article/jslsm/40/4/40_jslsm-40_0050/_article/-char/en" target="_blank">A method of computational clinical trial of a nanosecond pulsed laser skin treatment device by numerical simulation of phototermal damage.</a>
-              Journal of Japan Society for Laser Surgery and Medicine, 40, 301-308 (2020). [in Japanese] 
-            </li>
-          </ol>
+    </nav>
+
+    <div class="navi-space"></div>
+
+    <div class="container content">
+      <a name="PUB_J" class="anchor"></a>
+      <h4>Journal Papers</h4>
+      <ol>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura, D. Tsuruta, T. Ozawa, T. Kono: 
+          In silico evaluation of nanosecond laser treatment of pigmented lesions based on skin optical properties using a model of melanosome disruption threshold fluence.
+          Lasers in Surgery and Medicine, in press.
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura*, D. Tsuruta, T. Ozawa: 
+          <a href="https://doi.org/10.1038/s41598-024-70807-7" target="_blank">Ultralow radiant exposure of a short-pulsed laser to disrupt melanosomes with localized thermal damage through a turbid medium.</a>
+          Scientific Reports, 14, 20112 (2024).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, R. Teranishi, T. Nishimura, K. Kuwada, T. Goya, K. Morii, D. Tsuruta, T. Ozawa:
+          <a href="https://www.jstage.jst.go.jp/article/jslsm/45/2/45_jslsm-45_0025/_article/-char/en" target="_blank">Antimicrobial photodynamic therapy using an organic light-emitting diode.</a>
+          Journal of Japan Society for Laser Surgery and Medicine, 45, 153-160 (2024). [in Japanese] 
+        </li>
+        <li style="padding-top:0.5rem;">
+          R. Teranishi, T. Ozawa*, B. Katayama, <u><b>Y. Shimojo</b></u>, N. Ito, K. Awazu, D. Tsuruta: 
+          <a href="https://doi.org/10.1111/phpp.12959" target="_blank">Effect of photodynamic therapy with 5-aminolevulinic acid and EDTA-2Na against mixed infection of methicillin-resistant Staphylococcus aureus and Pseudomonas aeruginosa.</a>
+          Photodermatology, Photoimmunology & Photomedicine, 40, e12959 (2024).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura, D. Tsuruta, T. Ozawa, H.H.L. Chan, T. Kono: 
+          <a href="https://doi.org/10.1002/lsm.23773" target="_blank">Wavelength-dependent threshold fluences for melanosome disruption to evaluate the treatment of pigmented lesions with 532-, 730-, 755-, 785-, and 1064-nm picosecond lasers.</a>
+          Lasers in Surgery and Medicine, 56, 404-418 (2024). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          H. Imanishi, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
+          <a href="https://doi.org/10.1364/BOE.500022" target="_blank">Deep learning based depth map estimation of protoporphyrin IX in turbid media using dual wavelength excitation fluorescence.</a>
+          Biomedical Optics Express, 14, 5254-5266 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, K. Sudo, T. Nishimura*, T. Ozawa, D. Tsuruta, K. Awazu: 
+          <a href="https://doi.org/10.1038/s41598-023-39026-4" target="_blank">Transient simulation of laser ablation based on Monte Carlo light transport with dynamic optical properties model.</a>
+          Scientific Reports, 13, 11898 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          Y. Takai*, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
+          <a href="https://doi.org/10.1142/S1793545823500128" target="_blank">Artificial neural network-based determination of denoised optical properties in double integrating spheres measurement.</a>
+          Journal of Innovative Optical Health Sciences, 16, 2350012, (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          Y. Miyoshi*, T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Okayama, K. Awazu: 
+          <a href="https://doi.org/10.1038/s41598-023-29392-4" target="_blank">Endoscopic image-guided laser treatment system based on fiber bundle laser steering.</a>
+          Scientific Reports, 13, 2921 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura*, T. Ozawa, D. Tsuruta, K. Awazu:
+          <a href="https://doi.org/10.1002/lsm.23642" target="_blank">Nonlinear absorption-based analysis of energy deposition in melanosomes for 532-nm short-pulsed laser skin treatment.</a>
+          Lasers in Surgery and Medicine, 55, 305-315 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          T. Nishimura*, T. Suzuki, <u><b>Y. Shimojo</b></u>, R. Teranishi, T. Ozawa, D. Tsuruta, K. Awazu: 
+          <a href="https://doi.org/10.1016/j.pdpdt.2022.103116" target="_blank">Mathematical modelling for antimicrobial photodynamic therapy mediated by 5-aminolaevulinic acid: an in vitro study.</a>
+          Photodiagnosis and Photodynamic Therapy, 40, 103116 (2022).
+        </li>
+        <li style="padding-top:0.5rem;">
+          K. Sudo*, <u><b>Y. Shimojo</b></u>, T. Nishimura*, K. Awazu: 
+          <a href="https://doi.org/10.1142/S179354582250016X" target="_blank">Three-dimensional transient simulation of CO<sub>2</sub> laser tissue vaporization and experimental evaluation with a hydrogel phantom.</a>
+          Journal of Innovative Optical Health Sciences, 15, 2250016 (2022). [<b>Selected as Feturead Article 2022</b>]
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura*, K. Awazu: 
+          <a href="https://www.jstage.jst.go.jp/article/jslsm/42/4/42_jslsm-42_0027/_article/-char/en/" target="_blank">Photothermal effect induced by contact laser vaporization of porcine prostate tissue using XCAVATOR fiber.</a>
+          Journal of Japan Society for Laser Surgery and Medicine, 42, 219-227 (2022). [in Japanese] 
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura*, H. Hazama, N. Ito, K. Awazu: 
+          <a href="https://doi.org/10.1002/lsm.23391" target="_blank">Incident fluence analysis for 755-nm picosecond laser treatment of pigmented skin lesions based on threshold fluences for melanosome disruption.</a>
+          Lasers in Surgery and Medicine, 53, 1096-1104 (2021). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          T. Nishimura*, Y. Takai, <u><b>Y. Shimojo</b></u>,  H. Hazama, N. Ito, K. Awazu: 
+          <a href="https://doi.org/10.1007/s10043-020-00632-6" target="_blank">Determination of optical properties in double integrating sphere measurement by artificial neural network based method.</a>
+          Optical Review, 28, 42-47 (2021). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura*, H. Hazama, T. Ozawa, K. Awazu: 
+          <a href="https://doi.org/10.1117/1.JBO.25.4.045002" target="_blank">Measurement of absorption and reduced scattering coefficients in Asian human epidermis, dermis, and subcutaneous fat tissues in the 400- to 1100-nm wavelength range for optical penetration depth and energy deposition analysis.</a> 
+          Journal of Biomedical Optics, 25, 045002 (2020). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>*, T. Nishimura, H. Hazama, N. Ito, K. Awazu: 
+          <a href="https://doi.org/10.5978/islsm.20-OR-08" target="_blank">Picosecond laser-induced photothermal skin damage evaluation by computational clinical trial.</a>
+          Laser Therapy, 29, 61-72 (2020). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          T. Nishimura*, <u><b>Y. Shimojo</b></u>, K. Awazu: 
+          <a href="https://www.jstage.jst.go.jp/article/jslsm/41/1/41_jslsm-41_0001/_article/-char/en" target="_blank">Computer-aided Regulatory Science for Laser Medicine.</a>
+          Journal of Japan Society for Laser Surgery and Medicine, 41, 37-43 (2020). [in Japanese] 
+        </li>
+        <li style="padding-top:0.5rem;">
+          T. Nishimura*, <u><b>Y. Shimojo</b></u>, H. Hazama, K. Awazu: 
+          <a href="https://www.jstage.jst.go.jp/article/jslsm/40/4/40_jslsm-40_0050/_article/-char/en" target="_blank">A method of computational clinical trial of a nanosecond pulsed laser skin treatment device by numerical simulation of phototermal damage.</a>
+          Journal of Japan Society for Laser Surgery and Medicine, 40, 301-308 (2020). [in Japanese] 
+        </li>
+      </ol>
     </div>
 
-    <div class="visible-sm" style="margin-bottom:50px;"></div>
-                   
-    <div class="container">
+    <div class="container content">
       <a name="PUB_P" class="anchor"></a>
-          <h4>Proceedings (peer review)</h4>        
-          <ol>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
-              <a href="https://doi.org/10.1117/12.2648157" target="_blank">Quantitative evaluation of light distribution in skin tissue for short-pulsed laser treatment using Monte Carlo simulation combined with nonlinear absorption model of melanin.</a>
-              Proceedings of SPIE, 12377 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura: 
-              <a href="https://doi.org/10.1002/lsm.23536" target="_blank">Incident fluence model based on tissue optical properties and threshold fluence for melanosome disruption for 755-nm picosecond laser treatment of benign pigmented lesions.</a>
-              Lasers in Surgery and Medicine, 54(S34), S19 (2022).
-            </li>
-            <li style="padding-top:0.5rem;">
-              Y. Takai, <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
-              <a href="https://doi.org/10.1364/TRANSLATIONAL.2022.JM3A.3" target="_blank">Artificial neural network based method to estimate optical properties in biological tissues for noise reduction.</a>
-              Proceedings of Biophotonics Congress: Biomedical Optics 2022, JM3A.3 (2022). 
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
-              <a href="https://doi.org/10.1117/12.2607426" target="_blank">Two-level model of melanin absorption in picosecond laser skin treatment.</a>
-              Proceedings of SPIE, 11958 (2022).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura, H. Hazama, K. Awazu: 
-              <a href="https://doi.org/10.1117/12.2579020" target="_blank">Experimental analysis of morphological change in melanin for multiscale modeling of picosecond laser skin treatment.</a>
-              Proceedings of SPIE, 11640 (2021).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura, H. Hazama, T. Ozawa, K. Awazu: 
-              <a href="https://doi.org/10.1364/TRANSLATIONAL.2020.JTu3A.1" target="_blank">Computational evaluation of ethnic differences in photothermal damage induced by laser skin treatments.</a>
-              Proceedings of Biophotonics Congress: Biomedical Optics 2020, JTu3A.1 (2020).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>Y. Shimojo</b></u>, T. Nishimura, H.Hazama, N. Ito, K. Awazu: 
-              <a href="https://doi.org/10.1364/BODA.2019.DS1A.7" target="_blank">In silico evaluation of thermal skin damage caused by picosecond laser irradiation.</a>
-              Proceedings of Biophotonics Congress: Optics in the Life Sciences Congress 2019, DS1A.7 (2019).
-            </li>
-          </ol>
+      <h4>Proceedings</h4>
+      <ol>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
+          <a href="https://doi.org/10.1117/12.2648157" target="_blank">Quantitative evaluation of light distribution in skin tissue for short-pulsed laser treatment using Monte Carlo simulation combined with nonlinear absorption model of melanin.</a>
+          Proceedings of SPIE, 12377 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura: 
+          <a href="https://doi.org/10.1002/lsm.23536" target="_blank">Incident fluence model based on tissue optical properties and threshold fluence for melanosome disruption for 755-nm picosecond laser treatment of benign pigmented lesions.</a>
+          Lasers in Surgery and Medicine, 54(S34), S19 (2022).
+        </li>
+        <li style="padding-top:0.5rem;">
+          Y. Takai, <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
+          <a href="https://doi.org/10.1364/TRANSLATIONAL.2022.JM3A.3" target="_blank">Artificial neural network based method to estimate optical properties in biological tissues for noise reduction.</a>
+          Proceedings of Biophotonics Congress: Biomedical Optics 2022, JM3A.3 (2022). 
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura, K. Awazu: 
+          <a href="https://doi.org/10.1117/12.2607426" target="_blank">Two-level model of melanin absorption in picosecond laser skin treatment.</a>
+          Proceedings of SPIE, 11958 (2022).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura, H. Hazama, K. Awazu: 
+          <a href="https://doi.org/10.1117/12.2579020" target="_blank">Experimental analysis of morphological change in melanin for multiscale modeling of picosecond laser skin treatment.</a>
+          Proceedings of SPIE, 11640 (2021).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura, H. Hazama, T. Ozawa, K. Awazu: 
+          <a href="https://doi.org/10.1364/TRANSLATIONAL.2020.JTu3A.1" target="_blank">Computational evaluation of ethnic differences in photothermal damage induced by laser skin treatments.</a>
+          Proceedings of Biophotonics Congress: Biomedical Optics 2020, JTu3A.1 (2020).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>Y. Shimojo</b></u>, T. Nishimura, H.Hazama, N. Ito, K. Awazu: 
+          <a href="https://doi.org/10.1364/BODA.2019.DS1A.7" target="_blank">In silico evaluation of thermal skin damage caused by picosecond laser irradiation.</a>
+          Proceedings of Biophotonics Congress: Optics in the Life Sciences Congress 2019, DS1A.7 (2019).
+        </li>
+      </ol>
     </div>
 
-    <div class="visible-sm" style="margin-bottom:50px;"></div>
-
-    <div class="container">
+    <div class="container content">
       <a name="PUB_O" class="anchor"></a>
-          <h4>Others</h4>  
-          <ol>
-            <li style="padding-top:0.5rem;">
-              菊地哲宏, 渡邉絋介, <u><b>下条裕</b></u>, 伊藤廉, 小澤俊幸:
-              幹細胞に着目した新規アプローチによる育毛成分の探索.
-              フレグランスジャーナル, 11, 22-27 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>下条裕</b></u>: 
-              <a href="http://seisan.server-shared.com/754/754-42.pdf" target="_blank">ピコ秒レーザーを用いたコンピュテーショナルレーザー治療の開発.</a>
-              生産と技術, 75, 42-44 (2023).
-            </li>
-            <li style="padding-top:0.5rem;">
-              <u><b>下条裕</b></u>:
-              <a href="https://laborify.net/2019/08/24/shimojo-medical-laser-transitional-research/" target="_blank">医療・医用レーザーデバイスを迅速に臨床応用するためのTranslational Research.</a>
-              Laborify (2019).
-            </li>
-          </ol>
-        </div>
-      </div>
+      <h4>Others</h4>
+      <ol>
+        <li style="padding-top:0.5rem;">
+          菊地哲宏, 渡邉絋介, <u><b>下条裕</b></u>, 伊藤廉, 小澤俊幸:
+          幹細胞に着目した新規アプローチによる育毛成分の探索.
+          フレグランスジャーナル, 11, 22-27 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>下条裕</b></u>: 
+          <a href="http://seisan.server-shared.com/754/754-42.pdf" target="_blank">ピコ秒レーザーを用いたコンピュテーショナルレーザー治療の開発.</a>
+          生産と技術, 75, 42-44 (2023).
+        </li>
+        <li style="padding-top:0.5rem;">
+          <u><b>下条裕</b></u>:
+          <a href="https://laborify.net/2019/08/24/shimojo-medical-laser-transitional-research/" target="_blank">医療・医用レーザーデバイスを迅速に臨床応用するためのTranslational Research.</a>
+          Laborify (2019).
+        </li>
+      </ol>
     </div>
 
-    <div class="container">
-      <footer id="footer">
-        <div class="row">
-          <div class="col-lg-12">
-            <hr style="height: 0%; width: 100%;">
-            <p align="center">Copyright&copy; Yu Shimojo All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+    <div class="container footer">
+      Copyright &copy; Yu Shimojo All Reserved.
     </div>
-
-    <script src="_vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="_vendor/prismjs/prism.js" data-manual></script>
-    <script src="_assets/js/custom.js"></script>
   </body>
 </html>

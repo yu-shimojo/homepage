@@ -53,8 +53,14 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+.horizontal-center {
+	display: grid;
+	justify-items: center;
+	align-content: start;
+  }
+
 .navbar-nav-scroll {
-	max-height: var(--bs-scroll-height, 40vh);
+	max-height: var(--bs-scroll-height, 50vh);
 	overflow-y: auto;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
@@ -62,7 +68,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 .navbar-nav .nav-link {
 	font-size: 120%;
-	margin-left: 1em;
+	margin-left: 0.7em;
 }
 
 .navbar-dark {

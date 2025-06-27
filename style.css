@@ -101,6 +101,9 @@ div.navi-space {
 	margin-bottom:0.5em;
 }
 
+ol {
+	padding-left:1rem;
+}
 .container.content table {
 	display: table;
 	width: 100%;

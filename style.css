@@ -54,6 +54,24 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+/* パターン2: 赤 */
+.repojitory {
+  color: #da3243;
+  text-decoration: none;
+}
+.repojitory:hover {
+  color: #6b0e18;
+}
+
+/* パターン3: 緑 */
+.press {
+  color: #0d8d2b;
+  text-decoration: none;
+}
+.press:hover {
+  color: #10441c;
+}
+
 .horizontal-center {
 	display: grid;
 	justify-items: center;

@@ -55,11 +55,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 /* パターン2: 赤 */
-.repojitory {
+.repository {
   color: #da3243;
   text-decoration: none;
 }
-.repojitory:hover {
+.repository:hover {
   color: #6b0e18;
 }
 
